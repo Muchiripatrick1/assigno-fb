@@ -14,6 +14,7 @@ group :development, :test do
   gem 'bcrypt'
   gem 'carrierwave'
 gem 'mini_magick'
+gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 end
 
 group :development do
@@ -30,5 +31,3 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'bcrypt', '~> 3.1', '>= 3.1.12'
-end
